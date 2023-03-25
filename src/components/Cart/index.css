@@ -1,0 +1,17 @@
+/* Write your CSS code here */
+.cart-container {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart {
+  height: 350px;
+  width: 300px;
+}
+@media screen and (max-width: 768px) {
+  .cart {
+    height: 140px;
+    width: 160px;
+  }
+}
